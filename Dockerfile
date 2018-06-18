@@ -3,3 +3,5 @@ MAINTAINER dyoshikawa
 
 RUN sbt new playframework/play-scala-seed.g8 --name=myproject
 WORKDIR /root/myproject
+
+CMD sbt run
